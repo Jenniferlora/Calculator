@@ -1,0 +1,108 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+body{
+background-color: skyblue;
+background-image: url("images/spongebob2.jpg"); 
+margin: 0 auto;
+background-size: 150%
+background-repeat: no-repeat;
+background-position: 30vw 30vh;
+
+
+
+}
+
+table{
+	margin-left: 3.5vw;
+	margin-top: 80px;
+	height:300px;
+	width:19vw;
+	background-image: url("http://goingcrazywannago.com/wp-content/uploads/2014/02/spongebob-background.jpg");
+	background-size: cover;
+	border-radius: 20%;
+	padding: 15px 15px 15px 20px;
+	border: 30px rgba(255,219,000,1);
+
+}
+
+td,tr{
+	border: none;
+}
+
+input[type="button"]{
+	height: 60px;
+	width:40px;
+	font-size: 20px;
+/*	border-radius: 20%;*/
+	margin: 0 4px 0 4px;
+	color: blue;
+	border: solid red 1px;
+	box-shadow: 5px 5px 5px rgba(39,44,44,.2);
+
+
+}
+
+#box{
+	height: 60px;
+	font-size: 20px;
+	width: 110px;
+	border-radius: 20px;
+	margin:15px;
+	font-size: 32px;
+	background-image: url("https://storybookstorage.s3.amazonaws.com/items/images/000/569/068/original/20161107-6-140tc4g.jpg?1478528539");
+	background-size: cover;
+}
+.table{
+	animation-name: moveover 5s ease-out 1s;
+	float: left;
+}
+[name="one"]{
+	background-color: white;
+	border-radius: 100%;
+	
+}
+[name="three"]{
+	background-color: white;
+	border-radius: 100%;
+}
+[name="two"]{
+	background-color: rgba(255,255,255,0.2);
+	
+}
+[name="seven"]{
+	background-color: white;
+	margin-left: 20px;
+
+	
+}
+[name="nine"]{
+	background-color: white;
+	margin-left: 20px;
+	
+}
+img{
+	z-index: 3;
+	height: 400px;
+	float: right;
+	display: none;
+	animation: moveover 8s linear 0s infinite;
+}
+@keyframes moveover {
+	0%{ 
+		justify-content: bottom;
+		display: 
+		}
+	50%{
+		justify-content: center;
+		}
+	100%{
+		justify-content: center;
+		}
+} 
+
+
+
